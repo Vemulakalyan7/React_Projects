@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+  }
+  body{
+    background-color: rgb(219, 219, 46);
+
+  }
+
+.Main{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.heading h1{
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px 0;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.search-box{
+  width: 400px; /* Set the desired width here */
+  height: 40px;
+  margin: 5px;
+  
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  margin: 5px 0;
+}
+
+
+.container-items {
+  width: 80%;
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  gap: 8px;
+}
+
+.card{
+  width: 150px;
+  border-radius: 5px;
+  background-color: black;
+  padding: 2px;
+  
+}
+img{
+  width: 80%;
+  
+  border-radius: 4px 4px 0 0;
+}
+.card h2{
+  color: white;
+  font-size: 18px;
+  background-color: transparent;
+}
+.index-container{
+  display: flex;
+  margin: 10px 0;
+}
+.numBox{
+  width: 50px;
+  height: 40px;
+ background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    color: white;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+}
+/* -------Recipetiteminfo------------------------------- */
+.content {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.content img {
+  max-width: 40%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.recipe-details {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.ingredient,
+.instructions {
+  flex-basis: 50%;
+}
+
+.inner-content {
+  margin-top: 10px;
+}
+
+.inner-content h2 {
+  font-size: 24px;
+  margin: 5px 0;
+  color: #333;
+}
+
+/* Font styles for ingredients and instructions */
+.ingredient h2,
+.instructions h2,
+.ingredient h4,
+.instructions h4 {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+iframe{
+  height: 500px;
+  width: 100%;
+}
+.video{
+  width: 80%;
+  margin: 10px auto;
+}
+
+.GoTOHome{
+  text-align: center; 
+  margin: 20px;
+}
+.GoTOHome a{
+  text-decoration: none; 
+  color:black;
+  font-weight: bold; 
+}
